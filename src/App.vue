@@ -1,23 +1,28 @@
 <template>
     <div id="app" class="antialiased text-gray-900">
+        <!-- <div class="bg-gray-800 min-h-screen py-32 px-6">
+            <AccountDropdown />
+        </div> -->
         <div class="bg-gray-200 min-h-screen">
             <Navbar />
         </div>
         <!-- <div
             class="bg-gray-200 min-h-screen p-8 flex items-center justify-center"
-        > -->
-        <!-- <PropertyCard :property="property" /> -->
-        <!-- </div> -->
+        >
+            <PropertyCard :property="property" />
+        </div> -->
     </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
 // import PropertyCard from './components/PropertyCard.vue'
+// import AccountDropdown from './components/AccountDropdown'
 
 export default {
     name: 'App',
     components: {
+        // AccountDropdown
         Navbar
         // PropertyCard
     },
